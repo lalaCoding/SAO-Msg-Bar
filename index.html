@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+		<script src="./js/index.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/iconfont/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="./css/icon.css">
+	</head>
+
+	<body>
+		<div class="main-container">
+			<div class="swiper-container" id="swiper-container">
+				<div class="swiper-wrapper" id="swiper-wrapper">
+					<div class="swiper-slide item-container">
+						<div class="arrow" ondblclick="updateList()">
+
+						</div>
+						<div class="text-box">
+							<div class="text-title" onclick="test()">
+								在？
+							</div>
+							<div class="text-info">
+								This is a message, ignore me.
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide item-container">
+						<div class="arrow" ondblclick="updateList()">
+					
+						</div>
+						<div class="text-box">
+							<div class="text-title" onclick="test()">
+								You Have A New Massage!
+							</div>
+							<div class="text-info">
+								This is a message, ignore me.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="click-tip">
+				<div class="tip-icon">✔</div>
+				<div class="tip-text">复制成功!</div>
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		
+		var mySwiper;
+		initPage();
+		
+		// function test() {
+		// 	// window.open("https://www.baidu.com/","_blank","toolbar=yes,location=yes,directories=yes,menubar=yes,status=yes");
+		// 	var objShell = new ActiveXObject("wscript.shell");
+		// 	var cmd = "cmd /c start C:/\"Program Files (x86)\"/Google/Chrome/Application/chrome.exe \"http://www.baidu.com\"";
+		// 	objShell.Run(cmd, 0, true);
+		// }
+	</script>
+</html>
